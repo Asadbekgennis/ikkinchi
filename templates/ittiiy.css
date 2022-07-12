@@ -1,0 +1,26 @@
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    position: relative;
+     background-color: #1a3242;
+    padding: 14px;
+}
+li:after{
+    width: 0;
+    height: 2px;
+    background: black;
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: 0;
+    transition: 0.8s;
+
+}
+li{
+    color:white;
+
+}
+
+
